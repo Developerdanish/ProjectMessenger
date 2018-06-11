@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/transparent">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/newStatus_textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Status"
+            android:lines="3"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/discard_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discard"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/newStatus_textInput"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/newStatus_textInput"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"/>
+
+
+
+
+
+</RelativeLayout>

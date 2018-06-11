@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_listItem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/default_profile_picture"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/name_status_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/profile_image_listItem"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/display_name_listItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Display Name" />
+
+        <TextView
+            android:id="@+id/status_listItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            android:text="Hey there! I am part of project messenger" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/online_status_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_online_status"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"/>
+
+
+
+</RelativeLayout>

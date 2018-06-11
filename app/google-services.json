@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "417102708029",
+    "firebase_url": "https://projectmessenger-aac88.firebaseio.com",
+    "project_id": "projectmessenger-aac88",
+    "storage_bucket": "projectmessenger-aac88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417102708029:android:618dd0c479fb8caf",
+        "android_client_info": {
+          "package_name": "com.example.danish.projectmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417102708029-h2ev2qfk66tng5j0cah3bmg39j3acoi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.danish.projectmessenger",
+            "certificate_hash": "84a28e795fb7c9b88e5b0a3e16d1c7a7e3c40a6a"
+          }
+        },
+        {
+          "client_id": "417102708029-nqoftg67jlbhn0boitmm395dngi2mdn1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "417102708029-nqoftg67jlbhn0boitmm395dngi2mdn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9WV4Vmb6w1rsE3Ef_jjgtHvpmwrkLEyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417102708029-nqoftg67jlbhn0boitmm395dngi2mdn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
